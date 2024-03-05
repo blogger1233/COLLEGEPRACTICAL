@@ -1,5 +1,5 @@
 class Graph:
-   def init(self, graph, heuristicNodeList, startNode):
+   def __init__(self, graph, heuristicNodeList, startNode):
        self.graph = graph
        self.H = heuristicNodeList
        self.start = startNode
@@ -78,7 +78,7 @@ class Graph:
                    self.aoStar(childNode, False)
 
 print("GRAPH - ")
-h = {'A': 1, 'B': 6, 'C': 2, 'D': 12,}
+h = {'A': 1, 'B': 6, 'C': 2, 'D': 12}
 graph = {
    'A': [[('B', 1), ('C', 3), ('D', 7)]],
    'B': [[('D', 5)]],
