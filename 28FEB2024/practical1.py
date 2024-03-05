@@ -1,3 +1,4 @@
+#aim : nhi hain
 class Graph:
    def __init__(self, graph, heuristicNodeList, startNode):
        self.graph = graph
